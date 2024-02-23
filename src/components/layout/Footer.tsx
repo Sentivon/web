@@ -7,7 +7,7 @@ import TypographyMuted from "../typography/TypographyMuted";
 
 const Footer: React.FC = () => {
   return (
-    <div className="bottom-0 fixed w-full flex items-center justify-center flex-col bg-background">
+    <div className="bottom-0 w-full flex items-center justify-center flex-col bg-background">
       <Separator />
       <div className="max-w-7xl w-full py-8 flex flex-col gap-24">
         <div className="flex justify-between">

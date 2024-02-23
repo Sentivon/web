@@ -4,38 +4,48 @@ import { Button } from "../ui/button";
 
 import { ChevronRight } from "lucide-react";
 import ThemeSwitcher from "../theme-switcher";
-import { useScrollPosition } from "@/lib/utils";
+import { cn, useScrollPosition } from "@/lib/utils";
 import { Separator } from "../ui/separator";
 import React from "react";
 import TypographyLink from "../Link";
 import Link from "next/link";
+import { Fade, Slide } from "react-awesome-reveal";
 
 const Navbar: React.FC = () => {
   const scrollPosition = useScrollPosition();
 
   return (
-    <div className="sticky top-0 w-full flex flex-col items-center justify-center bg-background">
+    <div className="sticky top-0 w-full flex flex-col items-center justify-center bg-background z-50">
       <div className="max-w-7xl w-full grid grid-cols-6 py-6">
-        <div>
+        <Fade>
           <Link href={"/"}>
             <h2 className="text-2xl font-semibold">Sentivon</h2>
           </Link>
-        </div>
+        </Fade>
         <div className="flex items-center justify-center font-medium gap-6 col-span-4">
-          <TypographyLink href="/test" text="Leistungen" />
-          <TypographyLink href="/test" text="Team" />
-          <TypographyLink href="/test" text="Referenzen" />
+          <Fade>
+            <TypographyLink href="/test" text="Leistungen" />
+            <TypographyLink href="/test" text="Team" />
+            <TypographyLink href="/test" text="Referenzen" />
+          </Fade>
         </div>
         <div className="flex items-center gap-2">
-          <ThemeSwitcher />
-          <Link href={"/contact"}>
-            <Button className="gap-2">
-              Jetzt starten <ChevronRight size={16} />
-            </Button>
-          </Link>
+          <Fade>
+            <ThemeSwitcher />
+            <Link href={"/contact"}>
+              <Button className="gap-2">
+                Jetzt starten <ChevronRight size={16} />
+              </Button>
+            </Link>
+          </Fade>
         </div>
       </div>
-      {scrollPosition > 20 && <Separator className="w-full" />}
+      <Separator
+        className={cn(
+          "w-full transition",
+          scrollPosition > 20 ? "" : "bg-transparent"
+        )}
+      />
     </div>
   );
 };
