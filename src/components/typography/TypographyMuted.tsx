@@ -1,7 +1,7 @@
 export interface TypographyMutedProps {
-  text: string;
+  children: React.ReactNode;
 }
 
-export default function TypographyMuted({ text }: TypographyMutedProps) {
-  return <p className="text-sm text-muted-foreground">{text}</p>;
+export default function TypographyMuted({ children }: TypographyMutedProps) {
+  return <p className="text-sm text-muted-foreground">{children}</p>;
 }

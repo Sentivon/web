@@ -1,11 +1,11 @@
 export interface TypographyH1Props {
-  text: string;
+  children: React.ReactNode;
 }
 
-export default function TypographyH1({ text }: TypographyH1Props) {
+export default function TypographyH1({ children }: TypographyH1Props) {
   return (
     <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
-      {text}
+      {children}
     </h1>
   );
 }

@@ -1,7 +1,7 @@
 export interface TypographyPProps {
-  text: string;
+  children: React.ReactNode;
 }
 
-export default function TypographyP({ text }: TypographyPProps) {
-  return <p className="leading-7 [&:not(:first-child)]:mt-6">{text}</p>;
+export default function TypographyP({ children }: TypographyPProps) {
+  return <p className="leading-7 [&:not(:first-child)]:mt-6">{children}</p>;
 }

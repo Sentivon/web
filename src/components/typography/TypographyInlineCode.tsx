@@ -1,13 +1,13 @@
 export interface TypographyInlineCodeProps {
-  text: string;
+  children: React.ReactNode;
 }
 
 export default function TypographyInlineCode({
-  text,
+  children,
 }: TypographyInlineCodeProps) {
   return (
     <code className="relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold">
-      {text}
+      {children}
     </code>
   );
 }

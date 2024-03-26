@@ -1,7 +1,7 @@
 export interface TypographyLeadProps {
-  text: string;
+  children: React.ReactNode;
 }
 
-export default function TypographyLead({ text }: TypographyLeadProps) {
-  return <p className="text-xl text-muted-foreground">{text}</p>;
+export default function TypographyLead({ children }: TypographyLeadProps) {
+  return <p className="text-xl text-muted-foreground">{children}</p>;
 }

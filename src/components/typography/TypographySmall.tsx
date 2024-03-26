@@ -1,7 +1,7 @@
 export interface TypographySmallProps {
-  text: string;
+  children: React.ReactNode;
 }
 
-export default function TypographySmall({ text }: TypographySmallProps) {
-  return <small className="text-sm font-medium leading-none">{text}</small>;
+export default function TypographySmall({ children }: TypographySmallProps) {
+  return <small className="text-sm font-medium leading-none">{children}</small>;
 }
