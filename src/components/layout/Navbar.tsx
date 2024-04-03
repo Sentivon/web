@@ -1,6 +1,7 @@
 "use client";
 
 import { Button } from "../ui/button";
+import localFont from "next/font/local";
 
 import { ArrowUpRight, Menu } from "lucide-react";
 import ThemeSwitcher from "../theme-switcher";
@@ -20,6 +21,11 @@ import {
 } from "../ui/sheet";
 import BookingDialog from "../dialogs/BookingDialog";
 
+const kiona = localFont({
+  src: "./kiona.ttf",
+  display: "swap",
+});
+
 const Navbar: React.FC = () => {
   const scrollPosition = useScrollPosition();
 
@@ -29,7 +35,9 @@ const Navbar: React.FC = () => {
         <Link href={"/"} className="flex gap-2">
           <img src="/fox_white.svg" className="hidden dark:flex w-7" />
           <img src="/fox_dark.svg" className="dark:hidden w-7" />
-          <h2 className="text-lg font-bold">SEFRIN CONSULTING</h2>
+          <h2 className={cn("text-lg font-bold", kiona.className)}>
+            SEFRIN CONSULTING
+          </h2>
         </Link>
         <div className="items-center justify-center hidden col-span-4 gap-2 font-medium md:flex">
           <Navlink href="/#leistungen" content="Leistungen" />
@@ -53,7 +61,7 @@ const Navbar: React.FC = () => {
             </SheetTrigger>
             <SheetContent side={"left"}>
               <SheetHeader>
-                <SheetTitle>Sentivon</SheetTitle>
+                <SheetTitle>Sefrin Consulting</SheetTitle>
               </SheetHeader>
               <div className="flex flex-col justify-start gap-2 py-6">
                 <hr />

@@ -2,25 +2,15 @@
 
 import Chip from "@/components/other/Chip";
 import TypographyH1 from "@/components/typography/TypographyH1";
-import TypographyH2 from "@/components/typography/TypographyH2";
 import TypographyH3 from "@/components/typography/TypographyH3";
 import TypographyH4 from "@/components/typography/TypographyH4";
 import StarRatings from "react-star-ratings";
 
 import TypographyLead from "@/components/typography/TypographyLead";
 import TypographyMuted from "@/components/typography/TypographyMuted";
-import { Button } from "@/components/ui/button";
 import FadeMoveUp from "@/lib/FadeMoveUp";
-import { ArrowDownRight, ArrowRight, Dot, HomeIcon } from "lucide-react";
-import Link from "next/link";
-import React from "react";
-import { Fade, Slide } from "react-awesome-reveal";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
+import { ArrowDownRight, HomeIcon } from "lucide-react";
+import { Fade } from "react-awesome-reveal";
 import BookingDialog from "@/components/dialogs/BookingDialog";
 
 export default function Home() {
@@ -35,7 +25,7 @@ export default function Home() {
             </Chip>
           </Fade>
           <FadeMoveUp>
-            <TypographyH1 children="Wir machen SIE sichtbar" />
+            <TypographyH1 children="Wir machen DICH sichtbar" />
           </FadeMoveUp>
           <FadeMoveUp delay={100}>
             <TypographyLead>
@@ -68,20 +58,22 @@ export default function Home() {
         </div>
         <div className="grid w-full md:grid-cols-2 gap-6">
           <FadeMoveUp delay={100}>
-            <div className="flex flex-col gap-6 p-6 border rounded-lg bg-background">
+            <div className="flex flex-col gap-6 p-6 border rounded-lg h-full bg-background">
               <TypographyH3>Social Media Management</TypographyH3>
               <TypographyMuted>
-                Überlassen Sie uns das Social Media Management Ihrer Marke und
-                erleben Sie einen organischen Anstieg Ihrer Online-Präsenz und
-                Kundenbindung.
+                Gemeinsam erarbeiten wir an einem erprobten Bauplan, wie wir
+                Deinen Social Media Auftritt gemeinsam gestaltet. Damit bauen
+                wir erst Reichweite auf und gewinnen anschließend damit deine
+                Neukunden, die Interesse an dir und deiner Dienstleistung haben.
               </TypographyMuted>
             </div>
-            <div className="flex flex-col gap-6 p-6 border rounded-lg bg-background">
-              <TypographyH3>Paid Ads / Organisches Wachstum</TypographyH3>
+            <div className="flex flex-col gap-6 p-6 border rounded-lg h-full bg-background">
+              <TypographyH3>Bezahlte Werbeanzeigen</TypographyH3>
               <TypographyMuted>
-                Entdecken Sie die Kraft von Meta Ads und bringen Sie Ihre
-                Werbekampagnen auf Facebook, Instagram und Messenger auf die
-                nächste Stufe!
+                Nach klaren Anforderungen und der Übermittlung Deiner
+                Materialien richte ich Dir einen Funnel anhand bewährter
+                Methoden ein. Parallel wird das Material zu Werbeanzeigen
+                verarbeitet. Wenn beides steht, werden die Anzeigen ausgespielt.
               </TypographyMuted>
             </div>
           </FadeMoveUp>
@@ -104,42 +96,45 @@ export default function Home() {
           <div className="flex flex-col gap-20">
             <FadeMoveUp>
               <div className="flex flex-col gap-6">
-                <TypographyH1>1. Lorem ipsum dolor</TypographyH1>
+                <TypographyH1>1. Vertragsabschluss</TypographyH1>
                 <TypographyLead>
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                  diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                  aliquyam erat, sed diam voluptua. At vero eos et accusam et
-                  justo duo dolores et ea
-                </TypographyLead>
-                <div className="flex gap-4">
-                  <BookingDialog size={"lg"} />
-                </div>
-              </div>
-              <div className="flex flex-col gap-6">
-                <TypographyH1>2. Lorem ipsum dolor</TypographyH1>
-                <TypographyLead>
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                  diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                  aliquyam erat, sed diam voluptua. At vero eos et accusam et
-                  justo duo dolores et ea
+                  Mit dem unterschriebenen Vertrag beginnen die Prozesse und das
+                  Onboarding beginnt.
                 </TypographyLead>
               </div>
               <div className="flex flex-col gap-6">
-                <TypographyH1>3. Lorem ipsum dolor</TypographyH1>
+                <TypographyH1>2. klarer Bauplan</TypographyH1>
                 <TypographyLead>
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                  diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                  aliquyam erat, sed diam voluptua. At vero eos et accusam et
-                  justo duo dolores et ea
+                  Du bekommst von mir einen genauen und erprobten Bauplan, wie
+                  die Zusammenarbeit und vor allem Dein Social Media aussehen
+                  wird.
+                </TypographyLead>
+                <TypographyLead>
+                  Keine Sorge, ich arbeite nicht wie am Fließband. Das Ziel ist,
+                  dass Du online durch deinen USP und individuelle, spannende
+                  Geschichten herausstichst!
                 </TypographyLead>
               </div>
               <div className="flex flex-col gap-6">
-                <TypographyH1>4. Lorem ipsum dolor</TypographyH1>
+                <TypographyH1>3. Content Plan</TypographyH1>
                 <TypographyLead>
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                  diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                  aliquyam erat, sed diam voluptua. At vero eos et accusam et
-                  justo duo dolores et ea
+                  Im Hintergrund wird parallel die Struktur für Deinen
+                  Content-Plan eingerichtet. Dazu zählt der Aufbau, aber auch
+                  Funktionstests für Automatismen, die uns beiden die
+                  Zusammenarbeit erleichtern.
+                </TypographyLead>
+              </div>
+              <div className="flex flex-col gap-6">
+                <TypographyH1>4. Onboarding Termin</TypographyH1>
+                <TypographyLead>
+                  Bis zum eigentlichen Onboarding-Termin sind meine internen
+                  Prozesse abgeschlossen und Du hattest Zeit, Dir den Bauplan
+                  genau anzuschauen. Hier bekommst Du nochmal eine genaue
+                  Einweisung und wir können direkte Fragen besprechen.
+                </TypographyLead>
+                <TypographyLead>
+                  Damit kannst du anschließend direkt mit der Planung und
+                  Produktion beginnen.
                 </TypographyLead>
               </div>
             </FadeMoveUp>
