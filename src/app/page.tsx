@@ -25,7 +25,7 @@ export default function Home() {
             </Chip>
           </Fade>
           <FadeMoveUp>
-            <TypographyH1 children="Wir machen DICH sichtbar" />
+            <TypographyH1>Wir machen DICH sichtbar</TypographyH1>
           </FadeMoveUp>
           <FadeMoveUp delay={100}>
             <TypographyLead>
