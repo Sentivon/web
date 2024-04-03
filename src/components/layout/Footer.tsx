@@ -52,7 +52,7 @@ const Footer: React.FC = () => {
         </div>
         <div className="flex-col gap-6 md:flex-row flex items-center justify-between">
           <div>
-            <TypographyMuted>"Made with ❤️ in Dresden"</TypographyMuted>
+            <TypographyMuted>Made with ❤️ in Dresden</TypographyMuted>
           </div>
           <div className="flex justify-center gap-6">
             <TypographyLink className="text-sm" href="/allgemein/impressum">
