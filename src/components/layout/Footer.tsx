@@ -52,19 +52,15 @@ const Footer: React.FC = () => {
         </div>
         <div className="flex-col gap-6 md:flex-row flex items-center justify-between">
           <div>
-            <TypographyMuted children="Made with ❤️ in Dresden" />
+            <TypographyMuted>"Made with ❤️ in Dresden"</TypographyMuted>
           </div>
           <div className="flex justify-center gap-6">
-            <TypographyLink
-              className="text-sm"
-              children="Impressum"
-              href="/allgemein/impressum"
-            />
-            <TypographyLink
-              className="text-sm"
-              children="Datenschutz"
-              href="/test"
-            />
+            <TypographyLink className="text-sm" href="/allgemein/impressum">
+              Impressum
+            </TypographyLink>
+            <TypographyLink className="text-sm" href="/test">
+              Datenschutz
+            </TypographyLink>
           </div>
         </div>
       </div>
