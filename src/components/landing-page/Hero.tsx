@@ -11,7 +11,7 @@ import TypographyLead from "../typography/TypographyLead";
 export default function Hero() {
   return (
     <div className="flex items-center justify-between pt-20">
-      <div className="flex flex-col w-1/2 gap-6">
+      <div className="flex flex-col md:w-1/2 gap-6">
         <Fade triggerOnce delay={200}>
           <Chip>
             <HomeIcon size={12} />
@@ -19,7 +19,9 @@ export default function Hero() {
           </Chip>
         </Fade>
         <FadeMoveUp>
-          <TypographyH1>Sichtbarkeit und Neukundengewinnung</TypographyH1>
+          <TypographyH1 className="hypens-manual">
+            Sichtbarkeit und Neukunden&shy;gewinnung
+          </TypographyH1>
         </FadeMoveUp>
         <FadeMoveUp delay={100}>
           <TypographyLead>
@@ -33,7 +35,7 @@ export default function Hero() {
           </FadeMoveUp>
         </div>
       </div>
-      <div className="flex items-center justify-center">
+      <div className="hidden md:flex items-center justify-center">
         <Fade triggerOnce duration={2000}>
           <img src="/fox_white.svg" className="hidden dark:flex w-72" />
           <img src="/fox_dark.svg" className="dark:hidden w-72" />
