@@ -24,7 +24,7 @@ export default function TypographyLink({
     <Link
       href={href}
       className={cn(
-        "transition flex items-center gap-2 justify-between text-primary/60 hover:text-primary hover:underline underline-offset-4",
+        "transition inline-flex items-center gap-2 justify-between text-primary/60 hover:text-primary hover:underline underline-offset-4",
         className
       )}
       target={isExternalLink ? "_blank" : "_self"}

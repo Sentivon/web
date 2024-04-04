@@ -42,10 +42,15 @@ const Footer: React.FC = () => {
             <TypographyLink
               href={"mailto:info@sefrin-consulting.de"}
               className="w-fit"
+              isExternalLink
             >
-              info@sefrin-consulting.de
+              info@sefrinconsulting.de
             </TypographyLink>
-            <TypographyLink href={"tel:+4915253287326"} className="w-fit">
+            <TypographyLink
+              href={"tel:+4915253287326"}
+              className="w-fit"
+              isExternalLink
+            >
               +49 152 53287326
             </TypographyLink>
           </div>
@@ -57,9 +62,6 @@ const Footer: React.FC = () => {
           <div className="flex justify-center gap-6">
             <TypographyLink className="text-sm" href="/allgemein/impressum">
               Impressum
-            </TypographyLink>
-            <TypographyLink className="text-sm" href="/test">
-              Datenschutz
             </TypographyLink>
           </div>
         </div>
