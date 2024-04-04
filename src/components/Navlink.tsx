@@ -18,12 +18,13 @@ export default function Navlink({
   const router = useRouter();
 
   return (
-    <Button
-      onClick={() => router.push(href)}
-      variant={buttonProps?.variant ? buttonProps.variant : "ghost"}
-      {...buttonProps}
-    >
-      {content}
-    </Button>
+    <a href={href}>
+      <Button
+        variant={buttonProps?.variant ? buttonProps.variant : "ghost"}
+        {...buttonProps}
+      >
+        {content}
+      </Button>
+    </a>
   );
 }

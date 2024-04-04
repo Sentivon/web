@@ -40,9 +40,9 @@ const Navbar: React.FC = () => {
           </h2>
         </Link>
         <div className="items-center justify-center hidden col-span-4 gap-2 font-medium md:flex">
-          <Navlink href="#leistungen" content="Leistungen" />
-          <Navlink href="#so-funktionierts" content="So funktionierts" />
-          <Navlink href="#kundenmeinungen" content="Kundenmeinungen" />
+          <Navlink href="/#leistungen" content="Leistungen" />
+          <Navlink href="/#so-funktionierts" content="So funktionierts" />
+          <Navlink href="/#kundenmeinungen" content="Kundenmeinungen" />
         </div>
         <div className="items-center justify-end hidden gap-2 md:flex">
           <ThemeSwitcher />
@@ -76,7 +76,7 @@ const Navbar: React.FC = () => {
                   buttonProps={{ size: "lg" }}
                 />
                 <Navlink
-                  href="#kundenmeinungen"
+                  href="/#kundenmeinungen"
                   content="Kundenmeinungen"
                   buttonProps={{ size: "lg" }}
                 />
