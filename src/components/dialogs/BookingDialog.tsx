@@ -43,7 +43,7 @@ const BookingDialog: React.FC<ButtonProps> = (props) => {
         </DialogHeader>
         <div className="flex items-center justify-start mt-8">
           <Cal
-            calLink="sentivon/erstgespraech"
+            calLink="sefrinconsulting/kennenlernen"
             className="md:w-[770px] w-full"
             style={{ height: "100%", overflow: "scroll" }}
             config={{ layout: "column_view" }}
