@@ -20,7 +20,7 @@ export default function Hero() {
         </Fade>
         <FadeMoveUp>
           <TypographyH1 className="hypens-manual">
-            Sichtbarkeit und Neukunden&shy;gewinnung
+            Reichweite, die Kunden bringt.
           </TypographyH1>
         </FadeMoveUp>
         <FadeMoveUp delay={100}>
