@@ -20,13 +20,14 @@ export default function Hero() {
         </Fade>
         <FadeMoveUp>
           <TypographyH1 className="hypens-manual">
-            Reichweite, die Kunden bringt.
+            Ganzheitliche Beratung für dein Marketing und Branding.
           </TypographyH1>
         </FadeMoveUp>
         <FadeMoveUp delay={100}>
           <TypographyLead>
-            Deine Sichtbarkeit auf Social Media wird durch unsere Zusammenarbeit
-            wachsen. Das nutzen wir und gewinnen Neukunden für Dich.
+            Wir lenken die Aufmerksamkeit deiner Zielgruppe auf dein Produkt -
+            die Lösung ihres Problems und schaffen positive Assoziationen mit
+            dir als Person.
           </TypographyLead>
         </FadeMoveUp>
         <div className="flex gap-4">
