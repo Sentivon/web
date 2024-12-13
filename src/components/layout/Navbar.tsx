@@ -45,7 +45,9 @@ const Navbar: React.FC = () => {
         </div>
         <div className="items-center justify-end hidden gap-2 md:flex">
           <ThemeSwitcher />
-          <BookingDialog children={<>Jetzt Anfragen <ArrowUpRight size={16} /></>} />
+          <BookingDialog>
+            Jetzt Anfragen <ArrowUpRight size={16} />
+          </BookingDialog>
         </div>
         <div className="flex items-center justify-end col-span-5 md:hidden">
           <Sheet>

@@ -31,7 +31,9 @@ export default function Hero() {
         </FadeMoveUp>
         <div className="flex gap-4 md:flex-row flex-col">
           <FadeMoveUp delay={200}>
-            <BookingDialog size={"lg"} children={<>Jetzt Zusammenarbeit anfragen <ArrowUpRight size={16} /></>} />
+            <BookingDialog size={"lg"}>
+              Jetzt Zusammenarbeit anfragen <ArrowUpRight size={16} />
+            </BookingDialog>
           </FadeMoveUp>
           <FadeMoveUp delay={300}>
             <Navlink

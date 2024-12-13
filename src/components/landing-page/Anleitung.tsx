@@ -66,7 +66,9 @@ export default function Anleitung() {
       </div>
       <div className="flex w-full">
         <FadeMoveUp>
-          <BookingDialog size={"lg"} children={<>Jetzt Zusammenarbeit anfragen <ArrowUpRight size={16} /></>} />
+          <BookingDialog size={"lg"}>
+            Jetzt Zusammenarbeit anfragen <ArrowUpRight size={16} />
+          </BookingDialog>
         </FadeMoveUp>
       </div>
     </div>
