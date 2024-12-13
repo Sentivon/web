@@ -1,7 +1,7 @@
 "use client";
 
 import FadeMoveUp from "@/lib/FadeMoveUp";
-import { ArrowUpRight, HomeIcon } from "lucide-react";
+import { ArrowDownRight, ArrowUpRight, HomeIcon } from "lucide-react";
 import { Fade } from "react-awesome-reveal";
 import BookingDialog from "../dialogs/BookingDialog";
 import Chip from "../other/Chip";
@@ -36,7 +36,7 @@ export default function Hero() {
           <FadeMoveUp delay={300}>
             <Navlink
               href="/#so-funktionierts"
-              content="So funktionierts"
+              content={<>So funktionierts <ArrowDownRight size={16} /></>}
               buttonProps={{ size: "lg", variant: "secondary" }}
             />
           </FadeMoveUp>
