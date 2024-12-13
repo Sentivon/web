@@ -9,7 +9,7 @@ import TypographyLink from "../typography/TypographyLink";
 
 export default function Reputationsmanagement() {
     return (
-        <div id="kundenmeinungen" className="flex flex-col gap-8">
+        <div id="reputationsmanagement" className="flex flex-col gap-8">
             <div className="flex flex-col">
                 <FadeMoveUp>
                     <div className="flex items-center gap-2">
@@ -25,7 +25,7 @@ export default function Reputationsmanagement() {
                     </TypographyH4>
                 </FadeMoveUp>
             </div>
-            <div className="flex flex-col gap-6 max-w-[850px]">
+            <div className="flex flex-col gap-6 md:max-w-[850px]">
                 <FadeMoveUp>
                     <TypographyLead>
                         Du stehst genau wie jeder der seine Dienstleistung online anbietet in einem ständigen Wettkampf mit deiner Konkurrenz. Interessenten sehen mittlerweile alle Anbieter mit wenigen Klicks direkt auf dem Handy.

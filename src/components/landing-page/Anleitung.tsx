@@ -1,7 +1,7 @@
 "use client";
 
 import FadeMoveUp from "@/lib/FadeMoveUp";
-import { ArrowDownRight } from "lucide-react";
+import { ArrowDownRight, ArrowUpRight } from "lucide-react";
 import { Fade } from "react-awesome-reveal";
 import TypographyH1 from "../typography/TypographyH1";
 import TypographyH2 from "../typography/TypographyH2";
@@ -66,7 +66,7 @@ export default function Anleitung() {
       </div>
       <div className="flex w-full">
         <FadeMoveUp>
-          <BookingDialog size={"lg"} />
+          <BookingDialog size={"lg"} children={<>Jetzt Zusammenarbeit anfragen <ArrowUpRight size={16} /></>} />
         </FadeMoveUp>
       </div>
     </div>

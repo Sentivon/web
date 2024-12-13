@@ -1,7 +1,7 @@
 "use client";
 
 import FadeMoveUp from "@/lib/FadeMoveUp";
-import { HomeIcon } from "lucide-react";
+import { ArrowUpRight, HomeIcon } from "lucide-react";
 import { Fade } from "react-awesome-reveal";
 import BookingDialog from "../dialogs/BookingDialog";
 import Chip from "../other/Chip";
@@ -30,9 +30,9 @@ export default function Hero() {
             Damit strahlst Dein Angebot direkt mehr Vertrauen aus, wenn sich Interessenten über die Lösung ihres Problems informieren.
           </TypographyLead>
         </FadeMoveUp>
-        <div className="flex gap-4">
+        <div className="flex gap-4 md:flex-row flex-col">
           <FadeMoveUp delay={200}>
-            <BookingDialog size={"lg"} />
+            <BookingDialog size={"lg"} children={<>Jetzt Zusammenarbeit anfragen <ArrowUpRight size={16} /></>} />
           </FadeMoveUp>
           <FadeMoveUp delay={300}>
             <Navlink

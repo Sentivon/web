@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowUpRight, Copy } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import Cal, { getCalApi } from "@calcom/embed-react";
 import { useEffect } from "react";
 import { Button, ButtonProps } from "@/components/ui/button";
@@ -31,7 +31,7 @@ const BookingDialog: React.FC<ButtonProps> = (props) => {
     <Dialog>
       <DialogTrigger asChild>
         <Button className="gap-2" {...props}>
-          Jetzt Zusammenarbeit anfragen <ArrowUpRight size={16} />
+          {props.children}
         </Button>
       </DialogTrigger>
       <DialogContent className="min-w-fit overflow-y-scroll max-h-screen">

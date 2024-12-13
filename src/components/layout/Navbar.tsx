@@ -40,13 +40,12 @@ const Navbar: React.FC = () => {
           </h2>
         </Link>
         <div className="items-center justify-center hidden col-span-4 gap-2 font-medium md:flex">
-          <Navlink href="/#leistungen" content="Leistungen" />
+          <Navlink href="/#reputationsmanagement" content="Reputationsmanagement" />
           <Navlink href="/#so-funktionierts" content="So funktionierts" />
-          <Navlink href="/#kundenmeinungen" content="Kundenmeinungen" />
         </div>
         <div className="items-center justify-end hidden gap-2 md:flex">
           <ThemeSwitcher />
-          <BookingDialog />
+          <BookingDialog children={<>Jetzt Anfragen <ArrowUpRight size={16} /></>} />
         </div>
         <div className="flex items-center justify-end col-span-5 md:hidden">
           <Sheet>
@@ -66,18 +65,13 @@ const Navbar: React.FC = () => {
               <div className="flex flex-col justify-start gap-2 py-6">
                 <hr />
                 <Navlink
-                  href="/#leistungen"
-                  content="Leistungen"
+                  href="/#reputationsmanagement"
+                  content="Reputationsmanagement"
                   buttonProps={{ size: "lg" }}
                 />
                 <Navlink
                   href="/#so-funktionierts"
                   content="So funktionierts"
-                  buttonProps={{ size: "lg" }}
-                />
-                <Navlink
-                  href="/#kundenmeinungen"
-                  content="Kundenmeinungen"
                   buttonProps={{ size: "lg" }}
                 />
                 <hr />
