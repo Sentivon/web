@@ -32,12 +32,12 @@ const Footer: React.FC = () => {
           <div className="flex flex-col items-center gap-2 justify-center">
             <TypographyLink
               href={
-                "https://www.google.com/maps/place/Konkordienstra%C3%9Fe+21,+01127+Dresden/@51.0754621,13.7240436,17z/data=!3m1!4b1!4m6!3m5!1s0x4709cf062eef1ffb:0xae82b7e4c58d36fd!8m2!3d51.0754621!4d13.7266239!16s%2Fg%2F11c2f51jws?hl=de&entry=ttu"
+                "https://www.google.com/maps/place/Wilhelm-Franz-Stra%C3%9Fe+10,+01157+Dresden/@51.0496429,13.6814339,16z/data=!3m1!4b1!4m6!3m5!1s0x4709cf8abe2e5a67:0xe0229b34f067cfd5!8m2!3d51.0496429!4d13.6814339!16s%2Fg%2F11c4p5636z?entry=ttu&g_ep=EgoyMDI0MTIxMC4wIKXMDSoASAFQAw%3D%3D"
               }
               isExternalLink
               className="w-fit"
             >
-              Konkordienstraße 21, 01127 Dresden
+              Wilhelm-Franz-Straße 10, 01157 Dresden
             </TypographyLink>
             <TypographyLink
               href={"mailto:info@sefrin-consulting.de"}

@@ -31,7 +31,7 @@ const BookingDialog: React.FC<ButtonProps> = (props) => {
     <Dialog>
       <DialogTrigger asChild>
         <Button className="gap-2" {...props}>
-          Jetzt starten <ArrowUpRight size={16} />
+          Jetzt Zusammenarbeit anfragen <ArrowUpRight size={16} />
         </Button>
       </DialogTrigger>
       <DialogContent className="min-w-fit overflow-y-scroll max-h-screen">

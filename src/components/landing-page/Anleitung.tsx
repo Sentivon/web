@@ -4,81 +4,70 @@ import FadeMoveUp from "@/lib/FadeMoveUp";
 import { ArrowDownRight } from "lucide-react";
 import { Fade } from "react-awesome-reveal";
 import TypographyH1 from "../typography/TypographyH1";
-import TypographyH3 from "../typography/TypographyH3";
+import TypographyH2 from "../typography/TypographyH2";
 import TypographyLead from "../typography/TypographyLead";
+import TypographyMuted from "../typography/TypographyMuted";
+import BookingDialog from "../dialogs/BookingDialog";
+import TypographyH4 from "../typography/TypographyH4";
 
 export default function Anleitung() {
   return (
     <div id="so-funktionierts" className="flex flex-col gap-8">
-      <div className="flex items-center gap-2">
+      <div className="flex flex-col">
         <FadeMoveUp>
-          <TypographyH3>So funktionierts</TypographyH3>
-          <ArrowDownRight />
+          <div className="flex items-center gap-2">
+            <TypographyH2>
+              So funktioniert die Zusammenarbeit
+            </TypographyH2>
+            <ArrowDownRight />
+          </div>
+        </FadeMoveUp>
+        <FadeMoveUp delay={200}>
+          <TypographyH4>
+            damit du langfristig mehr positive Bewertungen bekommst
+          </TypographyH4>
         </FadeMoveUp>
       </div>
-      <div className="flex gap-6">
+      <div className="flex gap-8">
         <Fade triggerOnce delay={100}>
           <div className="w-1 min-h-full bg-secondary" />
         </Fade>
-        <div className="flex flex-col gap-20">
+        <div className="flex flex-col gap-16">
           <FadeMoveUp>
             <div className="flex flex-col gap-6">
-              <TypographyH1>1. klares Framework</TypographyH1>
+              <TypographyH1>1. Voraussetzungen für die Zusammenarbeit</TypographyH1>
               <TypographyLead>
-                Du bekommst von mir einen genauen und erprobten Bauplan, wie wir
-                Deinen Content auf Social Media gestalten.
+                Die einzigen Voraussetzungen, die Du erfüllen musst, ist der Zugriff zu Deiner Kundenliste, den ich brauche.
               </TypographyLead>
               <TypographyLead>
-                Keine Sorge, ich arbeite nicht wie am Fließband. Das Ziel ist,
-                dass Du online durch deinen USP und individuelle, spannende
-                Geschichten herausstichst!
+                Egal ob direkten CRM Zugriff (der auch in Zukunft viele Vorteile mit sich bringt) oder eine einfache Excel Liste. Außerdem musst du Zugriff zu deinem Google Business Profil haben.
               </TypographyLead>
             </div>
             <div className="flex flex-col gap-6">
-              <TypographyH1>2. Content-Plan</TypographyH1>
+              <TypographyH1>2. Einrichtung Zugänge</TypographyH1>
               <TypographyLead>
-                Im Hintergrund wird parallel die Struktur für Deinen
-                Content-Plan eingerichtet. Dazu zählt der Aufbau, aber auch
-                Funktionstests für Automatismen, die uns beiden die
-                Zusammenarbeit erleichtern.
+                Ich richte Dir Deinen eigenen Zugang zu meinen System ein, auf dessen Basis wir arbeiten werden und Du dir ein genaues Bild der Arbeit machen kannst. Alles transparent.
               </TypographyLead>
             </div>
             <div className="flex flex-col gap-6">
-              <TypographyH1>3. Onboarding Termin</TypographyH1>
+              <TypographyH1>3. Onboarding</TypographyH1>
               <TypographyLead>
-                Bis zum eigentlichen Onboarding-Termin sind meine internen
-                Prozesse abgeschlossen und Du konntest Dir das Framework
-                anschauen. Jetzt bekommst Du nochmal eine genaue Einweisung und
-                wir können direkte Fragen besprechen.
-              </TypographyLead>
-              <TypographyLead>
-                Damit kannst du anschließend direkt mit der Planung und
-                Produktion beginnen.
+                Bei einem gemeinsamen Onboarding Termin brauchen wir die Zugriffe, von denen ich oben gesprochen habe. Wir treffen uns in einem Zoom Meeting, das du an einem Laptop führen musst, damit wir auch alles genau einrichten können.
               </TypographyLead>
             </div>
             <div className="flex flex-col gap-6">
-              <TypographyH1>4. Planung und Erstellung</TypographyH1>
+              <TypographyH1>4. Automatisierte Prozesse</TypographyH1>
               <TypographyLead>
-                Bei der Planung wird Dein Content-Plan in Trello gefüllt und Du
-                bist anschließend bereit für eine reibungslose Produktion.
-              </TypographyLead>
-              <TypographyLead>
-                Jetzt kommt der wichtigste Part: Du nimmst Deinen Content auf!
-              </TypographyLead>
-            </div>
-            <div className="flex flex-col gap-6">
-              <TypographyH1>5. Bearbeitung und Veröffentlichung</TypographyH1>
-              <TypographyLead>
-                Nachdem Du mir Deinen Content zur Verfügung gestellt hast,
-                beginne ich mit der Bearbeitung - der Hauptteil meiner Arbeit.
-              </TypographyLead>
-              <TypographyLead>
-                Anschließend ist das Video bereit veröffentlicht zu werden und
-                Deine Sichtbarkeit wird wachsen.
+                Wenn das System steht und alles funktioniert kannst du dich zurücklehnen. Die Anfragen verschicke ich dann über das System an die Kontakte. Die Bewertungen werden auch direkt mit beantwortet.
               </TypographyLead>
             </div>
           </FadeMoveUp>
         </div>
+      </div>
+      <div className="flex w-full">
+        <FadeMoveUp>
+          <BookingDialog size={"lg"} />
+        </FadeMoveUp>
       </div>
     </div>
   );

@@ -1,6 +1,5 @@
 "use client";
 
-import { Fade } from "react-awesome-reveal";
 import TypographyH1 from "../typography/TypographyH1";
 import TypographyLead from "../typography/TypographyLead";
 import FadeMoveUp from "@/lib/FadeMoveUp";

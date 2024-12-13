@@ -7,6 +7,8 @@ import BookingDialog from "../dialogs/BookingDialog";
 import Chip from "../other/Chip";
 import TypographyH1 from "../typography/TypographyH1";
 import TypographyLead from "../typography/TypographyLead";
+import { Button } from "../ui/button";
+import Navlink from "../Navlink";
 
 export default function Hero() {
   return (
@@ -20,19 +22,24 @@ export default function Hero() {
         </Fade>
         <FadeMoveUp>
           <TypographyH1 className="hypens-manual">
-            Ganzheitliche Beratung für dein Marketing und Branding.
+            Mehr Bewertungen als Deine Konkurrenz und damit mehr Verkäufe.
           </TypographyH1>
         </FadeMoveUp>
         <FadeMoveUp delay={100}>
           <TypographyLead>
-            Wir lenken die Aufmerksamkeit deiner Zielgruppe auf dein Produkt -
-            die Lösung ihres Problems und schaffen positive Assoziationen mit
-            dir als Person.
+            Damit strahlst Dein Angebot direkt mehr Vertrauen aus, wenn sich Interessenten über die Lösung ihres Problems informieren.
           </TypographyLead>
         </FadeMoveUp>
         <div className="flex gap-4">
           <FadeMoveUp delay={200}>
             <BookingDialog size={"lg"} />
+          </FadeMoveUp>
+          <FadeMoveUp delay={300}>
+            <Navlink
+              href="/#so-funktionierts"
+              content="So funktionierts"
+              buttonProps={{ size: "lg", variant: "secondary" }}
+            />
           </FadeMoveUp>
         </div>
       </div>
