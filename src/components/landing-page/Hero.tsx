@@ -27,7 +27,7 @@ export default function Hero() {
         </FadeMoveUp>
         <FadeMoveUp delay={100}>
           <TypographyLead>
-            Dein Angebot strahlt direkt mehr Vertrauen aus, wenn sich Interessenten über die Angebote in deiner Branche informieren.</TypographyLead>
+            Dein Angebot strahlt direkt mehr Vertrauen aus, wenn sich Interessenten über die Angebote in Deiner Branche informieren.</TypographyLead>
         </FadeMoveUp>
         <div className="flex gap-4 md:flex-row flex-col">
           <FadeMoveUp delay={200}>
