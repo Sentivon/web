@@ -1,7 +1,7 @@
 "use client";
 
 import FadeMoveUp from "@/lib/FadeMoveUp";
-import { ArrowDownRight, ArrowUpRight, HomeIcon } from "lucide-react";
+import { ArrowDown, ArrowDownRight, ArrowUpRight, HomeIcon } from "lucide-react";
 import { Fade } from "react-awesome-reveal";
 import BookingDialog from "../dialogs/BookingDialog";
 import Chip from "../other/Chip";
@@ -27,7 +27,7 @@ export default function Hero() {
         </FadeMoveUp>
         <FadeMoveUp delay={100}>
           <TypographyLead>
-            Dein Angebot strahlt direkt mehr Vertrauen aus, wenn sich Interessenten über die Angebote in Deiner Branche informieren.</TypographyLead>
+            Denn Du strahlst damit direkt mehr Vertrauen aus, wenn sich Interessenten über Dein Angebot informieren.</TypographyLead>
         </FadeMoveUp>
         <div className="flex gap-4 md:flex-row flex-col">
           <FadeMoveUp delay={200}>
@@ -38,7 +38,7 @@ export default function Hero() {
           <FadeMoveUp delay={300}>
             <Navlink
               href="/#so-funktionierts"
-              content={<>So funktionierts <ArrowDownRight size={16} /></>}
+              content={<>So funktionierts <ArrowDown size={16} /></>}
               buttonProps={{ size: "lg", variant: "secondary" }}
             />
           </FadeMoveUp>

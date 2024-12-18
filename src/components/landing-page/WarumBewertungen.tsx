@@ -14,22 +14,24 @@ export default function WarumBewertungen() {
                 <FadeMoveUp>
                     <div className="flex items-center gap-2">
                         <TypographyH2>
-                            Warum kümmerst du dich noch nicht um deine Bewertungen?
+                            Deine Herausforderungen beim Thema Bewertungen
                         </TypographyH2>
-                        <ArrowDownRight />
                     </div>
                 </FadeMoveUp>
             </div>
             <div className="flex flex-col gap-6 max-w-[850px]">
                 <FadeMoveUp>
                     <TypographyLead>
-                        Du sprichst Deine Kunden vielleicht bei Projektabschluss direkt auf eine Bewertung an. Aber wie viele zücken dann direkt noch ihr Handy und geben dann auch wirklich eine Bewertung ab?
+                        Wenn Du wirklich gut bist, dann sprichst Du Deine Kunden während der Zusammenarbeit oder nach Projektabschluss auf eine Bewertung an. Aber das machst Du wahrscheinlich nicht. Und selbst wenn Du es machst - wie viele Kunden nehmen dann ihr Handy in die Hand und geben Dir eine Bewertung?
                     </TypographyLead>
                     <TypographyLead>
-                        Wie viel Arbeit hat Dein Kunde dann, wenn er Deine Leistung bewerten will? Muss er erst über Umwege auf das entsprechende Google Profil kommen oder hast Du schon einen QR-Code, der direkt zum Ziel führt?
+                        Wie viel Arbeit hat Dein Kunde potenziell, wenn er Deine Leistung bewerten will? Muss er erst bei Google selbst Dein Profil raussuchen oder hast Du schon einen QR-Code oder einen Link vorbereitet, der direkt zum Ziel führt?
                     </TypographyLead>
                     <TypographyLead>
-                        Vielleicht schreibst du auch noch eine schnelle Nachricht, wenn du zwischen all Deinen Aufgaben kurz Zeit hast und dran denkst. Aber wie oft läuft diese Anfrage ins leere und der Kontakt versinkt?
+                        Außerdem bist Du den ganzen Tag mit wirklich wichtigen Aufgaben beschäftigt. Wie oft findest Du Zeit, um dann doch mal eine Nachricht an den Kunden zu schicken und darüber nach einer Bewertung zu fragen? Wie oft verläuft das ins Nichts - ohne eine Antwort?
+                    </TypographyLead>
+                    <TypographyLead>
+                    Genau deshalb solltest Du lieber auf mein Konzept setzen, mit dem wir systematisch und automatisiert Bewertungsanfragen verschicken. Hier drunter siehst Du, wie es abläuft.
                     </TypographyLead>
                 </FadeMoveUp>
             </div>
