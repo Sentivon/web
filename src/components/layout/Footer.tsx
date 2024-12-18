@@ -63,6 +63,9 @@ const Footer: React.FC = () => {
             <TypographyLink className="text-sm" href="/allgemein/impressum">
               Impressum
             </TypographyLink>
+            <TypographyLink className="text-sm" href="/allgemein/datenschutz">
+              Datenschutzerklärung
+            </TypographyLink>
           </div>
         </div>
       </div>
