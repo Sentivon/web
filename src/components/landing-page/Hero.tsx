@@ -22,12 +22,12 @@ export default function Hero() {
         </Fade>
         <FadeMoveUp>
           <TypographyH1 className="hypens-manual">
-            Mehr Bewertungen als Deine Konkurrenz und damit mehr Verkäufe.
+            Digitalisierung und Automatisierung.
           </TypographyH1>
         </FadeMoveUp>
         <FadeMoveUp delay={100}>
           <TypographyLead>
-            Denn Du strahlst damit direkt mehr Vertrauen aus, wenn sich Interessenten über Dein Angebot informieren.</TypographyLead>
+          Mehr Bewertungen, höhere Reichweite, gesteigertes Vertrauen – ohne zusätzlichen Aufwand für Dich.</TypographyLead>
         </FadeMoveUp>
         <div className="flex gap-4 md:flex-row flex-col">
           <FadeMoveUp delay={200}>
