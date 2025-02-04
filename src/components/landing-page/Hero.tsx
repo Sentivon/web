@@ -22,7 +22,7 @@ export default function Hero() {
         </Fade>
         <FadeMoveUp>
           <TypographyH1 className="hypens-manual">
-            Digitalisierung und Automatisierung.
+            Deine Prozesse - digital und automatisiert. 
           </TypographyH1>
         </FadeMoveUp>
         <FadeMoveUp delay={100}>
