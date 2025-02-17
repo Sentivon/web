@@ -1,7 +1,5 @@
 "use client";
 
-import { ArrowUpRight } from "lucide-react";
-import Cal, { getCalApi } from "@calcom/embed-react";
 import { useEffect } from "react";
 import { Button, ButtonProps } from "@/components/ui/button";
 import {
@@ -16,16 +14,6 @@ import {
 } from "@/components/ui/dialog";
 
 const BookingDialog: React.FC<ButtonProps> = (props) => {
-  useEffect(() => {
-    (async function () {
-      const cal = await getCalApi();
-      cal("ui", {
-        styles: { branding: { brandColor: "#000000" } },
-        hideEventTypeDetails: false,
-        layout: "month_view",
-      });
-    })();
-  }, []);
 
   return (
     <Dialog>
@@ -42,12 +30,7 @@ const BookingDialog: React.FC<ButtonProps> = (props) => {
           </DialogDescription>
         </DialogHeader>
         <div className="flex items-center justify-start mt-8">
-          <Cal
-            calLink="sefrinconsulting/kennenlernen"
-            className="md:w-[770px] w-full"
-            style={{ height: "100%", overflow: "scroll" }}
-            config={{ layout: "column_view" }}
-          />
+          <iframe src="https://api.leadconnectorhq.com/widget/booking/apmRpKBYCujy1GWSEAsg" className="w-full h-[300px] md:h-[500px]" id="apmRpKBYCujy1GWSEAsg_1739530973670"></iframe><br /><script src="https://link.msgsndr.com/js/form_embed.js" type="text/javascript"></script>
         </div>
         <DialogFooter className="sm:justify-start">
           <DialogClose asChild>
