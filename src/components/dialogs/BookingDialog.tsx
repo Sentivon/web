@@ -1,6 +1,5 @@
 "use client";
 
-import { useEffect } from "react";
 import { Button, ButtonProps } from "@/components/ui/button";
 import {
   Dialog,
@@ -30,7 +29,7 @@ const BookingDialog: React.FC<ButtonProps> = (props) => {
           </DialogDescription>
         </DialogHeader>
         <div className="flex items-center justify-start mt-8">
-          <iframe src="https://api.leadconnectorhq.com/widget/booking/apmRpKBYCujy1GWSEAsg" className="w-full h-[300px] md:h-[500px]" id="apmRpKBYCujy1GWSEAsg_1739530973670"></iframe><br /><script src="https://link.msgsndr.com/js/form_embed.js" type="text/javascript"></script>
+          <iframe src="https://api.leadconnectorhq.com/widget/booking/apmRpKBYCujy1GWSEAsg" className="w-full h-[300px] md:h-[500px]" id="apmRpKBYCujy1GWSEAsg_1739530973670"></iframe><br />
         </div>
         <DialogFooter className="sm:justify-start">
           <DialogClose asChild>
