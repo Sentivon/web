@@ -22,23 +22,27 @@ export default function Hero() {
   };
 
   return (
-    <div className="flex items-center justify-between pt-20">
-      <div className="flex flex-col md:w-1/2 gap-6">
-        <Fade triggerOnce delay={200}>
-          <Chip>
-            <HomeIcon size={12} />
-            Neue Website
-          </Chip>
-        </Fade>
-        <FadeMoveUp>
-          <TypographyH1 className="hypens-manual">
-            Deine Prozesse - digital und automatisiert.
-          </TypographyH1>
-        </FadeMoveUp>
-        <FadeMoveUp delay={100}>
-          <TypographyLead>
-            Mehr Bewertungen, höhere Reichweite, gesteigertes Vertrauen – ohne zusätzlichen Aufwand für Dich.</TypographyLead>
-        </FadeMoveUp>
+    <div className="grid grid-cols-1 lg:grid-cols-2 content-center pt-20 gap-12">
+      <div className="grid grid-cols-1 content-center gap-6">
+        <div>
+          <Fade triggerOnce delay={200}>
+            <Chip>
+              <HomeIcon size={12} />
+              Neue Website
+            </Chip>
+          </Fade>
+        </div>
+        <div>
+          <FadeMoveUp>
+            <TypographyH1 className="hypens-manual">
+              Deine Prozesse - digital und automatisiert.
+            </TypographyH1>
+          </FadeMoveUp>
+          <FadeMoveUp delay={100}>
+            <TypographyLead>
+              Mehr Bewertungen, höhere Reichweite, gesteigertes Vertrauen – ohne zusätzlichen Aufwand für Dich.</TypographyLead>
+          </FadeMoveUp>
+        </div>
         <div className="flex gap-4 md:flex-row flex-col">
           <FadeMoveUp delay={200}>
             <BookingDialog size={"lg"}>
@@ -54,9 +58,9 @@ export default function Hero() {
           </FadeMoveUp>
         </div>
       </div>
-      <div className="hidden md:flex items-center justify-center">
+      <div className="flex items-center justify-center">
         <Fade triggerOnce duration={2000}>
-          <div className="py-12 pl-24">
+          <div className="py-12">
             <YouTube videoId="ZxlZgsOQUEc" opts={videoOptions} />
           </div>
         </Fade>
