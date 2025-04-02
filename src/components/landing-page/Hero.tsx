@@ -58,13 +58,21 @@ export default function Hero() {
           </FadeMoveUp>
         </div>
       </div>
-      <div className="flex items-center justify-center">
-        <Fade triggerOnce duration={2000}>
-          <div className="py-12">
-            <YouTube videoId="ZxlZgsOQUEc" opts={videoOptions} />
+      <FadeMoveUp>
+        <div className="flex items-center justify-center">
+          <div className="py-12 w-full max-w-4xl lg:max-w-5xl xl:max-w-6xl">
+            <div className="aspect-video w-full">
+              <iframe
+                src="https://www.youtube.com/embed/ZxlZgsOQUEc?si=kWxAZOdHIxXJbdAb"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                className="w-full h-full "
+                style={{ border: 'none' }}
+              ></iframe>
+            </div>
           </div>
-        </Fade>
-      </div>
+        </div>
+      </FadeMoveUp>
     </div>
   );
 }
