@@ -40,7 +40,7 @@ export default function Hero() {
           </FadeMoveUp>
           <FadeMoveUp delay={100}>
             <TypographyLead>
-              Mehr Bewertungen, höhere Reichweite, gesteigertes Vertrauen – ohne zusätzlichen Aufwand für Dich.</TypographyLead>
+              Egal ob automatisch mehr Bewertungen oder ein komplettes, digitales Empfehlungsprogramm.</TypographyLead>
           </FadeMoveUp>
         </div>
         <div className="flex gap-4 md:flex-row flex-col">
