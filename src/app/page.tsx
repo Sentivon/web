@@ -1,17 +1,20 @@
 import Anleitung from "@/components/landing-page/Anleitung";
 import Hero from "@/components/landing-page/Hero";
 import Divider from "@/components/layout/Divider";
-import Reputationsmanagement from "@/components/landing-page/Reputationsmanagement";
-import WarumBewertungen from "@/components/landing-page/WarumBewertungen";
+import Empfehlungssoftware from "@/components/landing-page/Empfehlungssoftware";
+import UnterschiedEmpfehlungen from "@/components/landing-page/UnterschiedEmpfehlungen";
+import WarumEmpfehlungen from "@/components/landing-page/WarumEmpfehlungen";
 
 export default function Home() {
   return (
     <div className="flex flex-col gap-20">
       <Hero />
       <Divider />
-      <Reputationsmanagement />
+      <Empfehlungssoftware />
       <Divider />
-      <WarumBewertungen />
+      <WarumEmpfehlungen />
+      <Divider />
+      <UnterschiedEmpfehlungen />
       <Divider />
       <Anleitung />
     </div>

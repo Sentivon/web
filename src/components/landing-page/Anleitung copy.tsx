@@ -11,7 +11,7 @@ import BookingDialog from "../dialogs/BookingDialog";
 import TypographyH4 from "../typography/TypographyH4";
 import TypographyH3 from "../typography/TypographyH3";
 
-export default function Anleitung() {
+export default function Anleitung_old() {
   return (
     <div id="so-funktionierts" className="flex flex-col gap-8">
       <div className="flex flex-col">
@@ -24,7 +24,7 @@ export default function Anleitung() {
         </FadeMoveUp>
         <FadeMoveUp delay={200}>
           <TypographyLead>
-            ... damit Du mit Deinem eigener Empfehlungssoftware systematisch und langfristig Neukunden gewinnst.
+            ... damit du langfristig mehr positive Bewertungen bekommst.
           </TypographyLead>
         </FadeMoveUp>
       </div>
@@ -37,28 +37,34 @@ export default function Anleitung() {
             <div className="flex flex-col gap-6">
               <TypographyH3>1. Voraussetzungen für die Zusammenarbeit</TypographyH3>
               <TypographyLead>
-                Natürlich brauchst Du schon bestehende Mandanten, mit denen Du regelmäßig in Kontakt stehst, damit Du daraus neue Empfehlungen gewinnen kannst. 
+                Natürlich brauche ich Zugriff auf Deine Kundenliste, damit mein System die Anfrage verschicken kann. Egal, ob das eine einfache Excel-Liste oder der Zugriff zu Deinem CRM ist. Langfristig kann ich die 2. Variante empfehlen.
+              </TypographyLead>
+              <TypographyLead>
+                Außerdem musst Du mir Zugriff auf Dein Google Business Profil geben können. Dazu brauchst du Email und Passwort für das Google Konto - alternativ richten wir das zusammen beim Onboarding ein. Hauptsache der Zugriff ist da.
+              </TypographyLead>
+              <TypographyLead>
+                Je nach Versandmethode, die zum Einsatz kommen soll, brauche ich auch die Anmeldung für dein Meta Business Profil, welches mit deinem Whatsapp Business verknüpft ist.
               </TypographyLead>
             </div>
             <div className="flex flex-col gap-6">
-              <TypographyH3>2. Aufbau Deiner Plattform</TypographyH3>
+              <TypographyH3>2. Einrichtung Zugänge</TypographyH3>
               <TypographyLead>
-                Zum Start unserer Zusammenarbeit wird Deine Plattform individuell auf Deine Wünsche zugeschnitten. <br />
-                Dabei bekommst Du von mir vorher genug Zeit, um mir Deine Ideen und Vorstellungen zuzuarbeiten, damit ich alles berücksichtigen kann. <br />
-                Du musst Dir also keine Gedanken, um die technische Umsetzung machen.
+                Ich bereite mein System vor und richte Dir Deinen eigenen Zugang dazu ein. Auf dieser Basis werden wir arbeiten und Du kannst dir ein genaues Bild der Arbeit machen. Alles transparent.
               </TypographyLead>
             </div>
             <div className="flex flex-col gap-6">
               <TypographyH3>3. Onboarding</TypographyH3>
               <TypographyLead>
-                Nach spätestens 5 Tagen ist Deine Plattform einsatzbereit und steht Dir genau so zur Verfügung, wie Du es vorher in den Vorstellungsgespräch gezeigt bekommen hast. <br />
-                Du bekommst Deinen Login zur Verfügung gestellt und ein kurzes Video mit einer kleinen Einweisung.
+                Bei einem gemeinsamen Onboarding Termin brauchen wir die Zugriffe, von denen ich oben gesprochen habe. Wir treffen uns in einem Meeting, das du an einem Laptop führen musst, damit wir alles wichtige gemeinsam einrichten können.
               </TypographyLead>
             </div>
             <div className="flex flex-col gap-6">
-              <TypographyH3>4. Empfehlungen, Empfehlungen, Empfehlungen</TypographyH3>
+              <TypographyH3>4. Automatisierte Prozesse</TypographyH3>
               <TypographyLead>
-                Die Kombination aus Deiner eigenen, individuellen Empfehlungsplattform und Deiner Dienstleistung, mit der Deine Mandanten jetzt schon zufrieden sind, wird Dich messber mehr Kunden gewinnen lassen.
+                Wenn das System steht und alles funktioniert kannst du dich zurücklehnen. Die Anfragen werden automatisch verschickt und von mir überwacht. 
+              </TypographyLead>
+              <TypographyLead>
+                Alle anderen Möglichkeiten, wie die automatische Beantwortung der Bewertungen oder den Post auf Social Media, besprechen wir einfach vorher und dann werden auch diese Automatismen umgesetzt.
               </TypographyLead>
             </div>
           </FadeMoveUp>

@@ -2,12 +2,11 @@
 
 import { Button } from "../ui/button";
 import localFont from "next/font/local";
-
 import { ArrowUpRight, Menu } from "lucide-react";
 import ThemeSwitcher from "../theme-switcher";
 import { cn, useScrollPosition } from "@/lib/utils";
 import { Separator } from "../ui/separator";
-import React from "react";
+import React, { useEffect } from "react";
 import Link from "next/link";
 import Navlink from "../Navlink";
 import {
@@ -29,6 +28,17 @@ const kiona = localFont({
 const Navbar: React.FC = () => {
   const scrollPosition = useScrollPosition();
 
+  useEffect(() => {
+    // Füge scroll-padding-top zum html-Element hinzu
+    const html = document.documentElement;
+    html.style.scrollPaddingTop = '80px'; // Höhe deiner Navbar anpassen
+    
+    return () => {
+      // Aufräumen beim Komponentenabbau
+      html.style.scrollPaddingTop = '';
+    };
+  }, []);
+
   return (
     <div className="sticky top-0 z-50 flex flex-col items-center justify-center w-full bg-background">
       <div className="grid w-full grid-cols-6 py-3 max-w-7xl">
@@ -40,7 +50,7 @@ const Navbar: React.FC = () => {
           </h2>
         </Link>
         <div className="items-center justify-center hidden col-span-4 gap-2 font-medium md:flex">
-          <Navlink href="/#reputationsmanagement" content="Reputationsmanagement" />
+          <Navlink href="/#WarumEmpfehlungen" content="Warum Empfehlungen?" />
           <Navlink href="/#so-funktionierts" content="So funktionierts" />
         </div>
         <div className="items-center justify-end hidden gap-2 md:flex">
@@ -67,8 +77,8 @@ const Navbar: React.FC = () => {
               <div className="flex flex-col justify-start gap-2 py-6">
                 <hr />
                 <Navlink
-                  href="/#reputationsmanagement"
-                  content="Reputationsmanagement"
+                  href="/#WarumEmpfehlungen"
+                  content="Warum Empfehlungen?"
                   buttonProps={{ size: "lg" }}
                 />
                 <Navlink

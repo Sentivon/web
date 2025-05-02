@@ -40,7 +40,7 @@ export default function Hero() {
           </FadeMoveUp>
           <FadeMoveUp delay={100}>
             <TypographyLead>
-              Egal ob automatisch mehr Bewertungen oder ein komplettes, digitales Empfehlungsprogramm.</TypographyLead>
+              Mehr Neukunden mit Deinem eigenen Empfehlungsprogramm - ganz auf Dich zugeschnitten.</TypographyLead>
           </FadeMoveUp>
         </div>
         <div className="flex gap-4 md:flex-row flex-col">
@@ -63,7 +63,7 @@ export default function Hero() {
           <div className="py-12 w-full max-w-4xl lg:max-w-5xl xl:max-w-6xl">
             <div className="aspect-video w-full">
               <iframe
-                src="https://www.youtube.com/embed/ZxlZgsOQUEc?si=kWxAZOdHIxXJbdAb"
+                src="https://www.youtube.com/embed/1WFqHpU5Npo"
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 className="w-full h-full "
