@@ -31,7 +31,7 @@ export default function empfehlungssoftware() {
                         Dir kommt diese Situation bekannt vor?
                     </TypographyLead>
                     <TypographyLead>
-                        Du hast es mit bezahlten Werbeanzeigen auf Google oder Social Media versucht, Dir viele Gedanken gemacht, um den "perfekten" Content zu erstellen oder einfach Leads gekauft?
+                        Du hast es mit bezahlten Werbeanzeigen auf Google oder Social Media versucht, Dir viele Gedanken gemacht, um den &quot;perfekten&quot; Content zu erstellen oder einfach Leads gekauft?
                     </TypographyLead>
                     <TypographyLead>
                         Egal was es war, es hat Dich viel Zeit, Geld und vor allem Nerven gekostet - ohne Deinem Ziel näher zu kommen. Aber was ist die Alternative?
