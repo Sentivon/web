@@ -53,7 +53,7 @@ export default function WarumEmpfehlungen() {
             <div className="flex gap-4 md:flex-row flex-col">
                 <FadeMoveUp delay={200}>
                     <BookingDialog size={"lg"}>
-                    Erstgespräch vereinbaren <ArrowUpRight size={16} />
+                    Erstgespräch vereinbaren. <ArrowUpRight size={16} />
                     </BookingDialog>
                 </FadeMoveUp>
             </div>
