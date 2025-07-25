@@ -35,30 +35,29 @@ export default function Anleitung() {
         <div className="flex flex-col gap-16">
           <FadeMoveUp>
             <div className="flex flex-col gap-6">
-              <TypographyH3>1. Voraussetzungen für die Zusammenarbeit</TypographyH3>
+              <TypographyH3>1 - Voraussetzungen</TypographyH3>
               <TypographyLead>
-                Natürlich brauchst Du schon bestehende Mandanten, mit denen Du regelmäßig in Kontakt stehst, damit Du daraus neue Empfehlungen gewinnen kannst. 
+                Du brauchst einen gewissen Kundenstamm und Kontakte, mit denen Du regelmäßig in Kontakt stehst, die prinzipiell von Deiner Dienstleistung überzeugt sind und Dich mit dem, was Du machst, weiterempfehlen würden.
               </TypographyLead>
             </div>
             <div className="flex flex-col gap-6">
-              <TypographyH3>2. Aufbau Deiner Plattform</TypographyH3>
+              <TypographyH3>2 - Termin mit dem Videografen</TypographyH3>
               <TypographyLead>
-                Zum Start unserer Zusammenarbeit wird Deine Plattform individuell auf Deine Wünsche zugeschnitten. <br />
-                Dabei bekommst Du von mir vorher genug Zeit, um mir Deine Ideen und Vorstellungen zuzuarbeiten, damit ich alles berücksichtigen kann. <br />
-                Du musst Dir also keine Gedanken, um die technische Umsetzung machen.
+                Essenzieller Bestandteil der Plattform ist Dein persönliches Video, das Deine Mandanten und Kontakte dann teilen können. Darin übernimmst Du selbst den Teil, der erfahrungsgemäß am schwersten fällt: Dich und Deine Dienstleistung vorstellen, Mehrwert erzeugen und Interesse wecken.
+                <br /><br />
+                Dazu bekommst Du von mir einen Leitfaden an die Hand, auf was Du alles achten solltest. Du entscheidest, ob Du auf einen Videografen aus meinen Kontakten zurückgreifen möchtest oder Dir selbst einen suchst.
               </TypographyLead>
             </div>
             <div className="flex flex-col gap-6">
-              <TypographyH3>3. Onboarding</TypographyH3>
+              <TypographyH3>3 - Onboarding</TypographyH3>
               <TypographyLead>
-                Nach spätestens 5 Tagen ist Deine Plattform einsatzbereit und steht Dir genau so zur Verfügung, wie Du es vorher in den Vorstellungsgespräch gezeigt bekommen hast. <br />
-                Du bekommst Deinen Login zur Verfügung gestellt und ein kurzes Video mit einer kleinen Einweisung.
+                Parallel zu Deinem Video wird Dein exklusiver Zugang für die Empfehlungsplattform eingerichtet. Das Video ist erfahrungsgemäß der letzte Teil, der eingesetzt wird, bevor Du den Zugang überreicht bekommst. Ich gebe Dir in einem kurzen Video nochmal einen Schnelldurchlauf, wo Du was findest.
               </TypographyLead>
             </div>
             <div className="flex flex-col gap-6">
-              <TypographyH3>4. Empfehlungen, Empfehlungen, Empfehlungen</TypographyH3>
+              <TypographyH3>4 - Empfehlungen, Empfehlungen, Empfehlungen</TypographyH3>
               <TypographyLead>
-                Die Kombination aus Deiner eigenen, individuellen Empfehlungsplattform und Deiner Dienstleistung, mit der Deine Mandanten jetzt schon zufrieden sind, wird Dich messber mehr Kunden gewinnen lassen.
+                Danach können sich Deine Mandanten mit Dir verknüpfen und Dich fleißig empfehlen. Du und Deine Mandanten sehen direkt aktuelle Zahlen und wissen, wie weit sie noch vom nächsten Meilenstein entfernt sind.
               </TypographyLead>
             </div>
           </FadeMoveUp>
